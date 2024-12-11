@@ -58,6 +58,16 @@ public class UIManager : MonoBehaviour
             imagens[setaSelecionada].color = Color.red;
         }
     }
+    public string GetTextoPontuacao()
+    {
+        return textoDePontuacao.text;
+    }
+    // Método com retorno: retorna o texto do relógio
+    public string GetTextoRelogio()
+    {
+        return textoDoRelogio.text;
+    }
+
 
     public void AtualizarTextos(int pontuacao, float relogio)
     {
